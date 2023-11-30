@@ -31,65 +31,65 @@
 
 / {
 
-    macros {
+    //macros {
         // undead `
-        ud_grave: ud_grave {
-            label = "UNDEAD_GRAVE";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
-            bindings = <&kp GRAVE &kp SPACE>;
-        };
+    //    ud_grave: ud_grave {
+    //        label = "UNDEAD_GRAVE";
+    //        compatible = "zmk,behavior-macro";
+    //        #binding-cells = <0>;
+    //        wait-ms = <10>;
+    //        tap-ms = <10>;
+    //        bindings = <&kp GRAVE &kp SPACE>;
+    //    };
 
         // undead ~
-        ud_tilde: ud_tilde {
-            label = "UNDEAD_TILDE";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
-            bindings = <&kp TILDE &kp SPACE>;
-        };
+    //    ud_tilde: ud_tilde {
+    //        label = "UNDEAD_TILDE";
+    //        compatible = "zmk,behavior-macro";
+    //        #binding-cells = <0>;
+    //        wait-ms = <10>;
+    //        tap-ms = <10>;
+    //       bindings = <&kp TILDE &kp SPACE>;
+    //    };
 
         // undead ^
-        ud_caret: ud_caret {
-            label = "UNDEAD_CARET";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
-            bindings = <&kp CARET &kp SPACE>;
-        };
+    //    ud_caret: ud_caret {
+    //        label = "UNDEAD_CARET";
+    //        compatible = "zmk,behavior-macro";
+    //        #binding-cells = <0>;
+    //        wait-ms = <10>;
+    //        tap-ms = <10>;
+    //        bindings = <&kp CARET &kp SPACE>;
+    //    };
 
         // undead '
-        ud_sqt: ud_sqt {
-            label = "UNDEAD_SINGLE_QUOTE";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
-            bindings = <&kp SQT &kp SPACE>;
-        };
+    //    ud_sqt: ud_sqt {
+    //        label = "UNDEAD_SINGLE_QUOTE";
+    //        compatible = "zmk,behavior-macro";
+    //        #binding-cells = <0>;
+    //        wait-ms = <10>;
+    //        tap-ms = <10>;
+    //        bindings = <&kp SQT &kp SPACE>;
+    //    };
 
         // undead "
-        ud_dqt: ud_dqt {
-            label = "UNDEAD_DOUBLE_QUOTE";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
-            bindings = <&kp LS(SQT) &kp SPACE>;
-        };
+    //    ud_dqt: ud_dqt {
+    //        label = "UNDEAD_DOUBLE_QUOTE";
+    //        compatible = "zmk,behavior-macro";
+    //        #binding-cells = <0>;
+    //        wait-ms = <10>;
+    //        tap-ms = <10>;
+    //        bindings = <&kp LS(SQT) &kp SPACE>;
+    //    };
 
-    };
+    //};
 
     combos {
         compatible = "zmk,combos";
 
         gm_capsword {
             bindings = <&caps_word>;
-            // caps on G+M
+            // caps on G+H
             key-positions = <28 29>;
         };
 
