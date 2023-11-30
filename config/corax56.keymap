@@ -119,11 +119,11 @@
         qwerty_layer {
             label = "QWERTY";
             bindings = <
-                &trans  &trans  &trans  &trans  &trans                    &trans  &trans     &trans   &trans    &trans
-        &trans   &kp Q   &kp W   &kp E   &kp R   &kp T                     &kp Y   &kp U      &kp I    &kp O     &kp P  &trans
-&trans  &trans   &kp A   &kp S   &kp D   &kp F   &kp G                     &kp H   &kp J      &kp K    &kp L  &kp SEMI  &trans  &trans
-        &trans   &kp Z   &kp X   &kp C   &kp V   &kp B  &trans    &trans   &kp N   &kp M  &kp COMMA  &kp DOT    &trans  &trans
-                                &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans
+                         &kp N1  &kp N2    &kp N3   &kp N4  &kp N5                               &kp N6    &kp N7    &kp N8   &kp N9    &kp N0
+                &kp ESC   &kp Q   &kp W     &kp E    &kp R   &kp T                                &kp Y     &kp U     &kp I    &kp O     &kp P   &kp BSLH
+&kp DEL         &kp TAB   &kp A   &kp S     &kp D    &kp F   &kp G                                &kp H     &kp J     &kp K    &kp L  &kp SEMI    &kp SQT  &kp ENTER
+              &kp LSHFT   &kp Z   &kp X     &kp C    &kp V   &kp B     &kp C_PP           &kp C_MUTE   &kp N      &kp M &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                                         &kp LGUI  &mo 3 &kp SPACE     &kp LCTRL       &kp BSPC &kp SPACE   &mo 3  &kp LALT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -132,11 +132,11 @@
         gaming_layer {
             label = "WASD";
             bindings = <
-                  &kp N5 &kp N1 &kp N2 &kp N3 &kp N4                    &trans  &trans     &trans   &trans    &trans
-        &trans   &kp TAB  &kp Q  &kp W  &kp E  &kp R                     &kp Y   &kp U      &kp I    &kp O     &kp P  &trans
-&trans  &trans &kp LCTRL  &kp A  &kp S  &kp D  &kp F                     &kp H   &kp J      &kp K    &kp L  &kp SEMI  &trans  &trans
-        &trans  &kp LBRC  &kp Z  &kp X  &kp C  &kp V  &trans    &trans   &kp N   &kp M  &kp COMMA  &kp DOT    &trans  &trans
-                                &trans &trans  &trans &trans    &trans  &trans  &trans     &trans
+                         &kp N1  &kp N2    &kp N3   &kp N4  &kp N5                               &kp N6    &kp N7    &kp N8   &kp N9    &kp N0
+                &kp ESC   &kp Q   &kp W     &kp E    &kp R   &kp T                                &kp Y     &kp U     &kp I    &kp O     &kp P   &kp BSLH
+&kp DEL         &kp TAB   &kp A   &kp S     &kp D    &kp F   &kp G                                &kp H     &kp J     &kp K    &kp L  &kp SEMI    &kp SQT  &kp ENTER
+              &kp LSHFT   &kp Z   &kp X     &kp C    &kp V   &kp B     &kp C_PP           &kp C_MUTE   &kp N      &kp M &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                                         &kp LGUI  &mo 3 &kp SPACE     &kp LCTRL       &kp BSPC &kp SPACE   &mo 3  &kp LALT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -160,11 +160,11 @@
         nav_layer {
             label = "Num / Nav";
             bindings = <
-                 &kp F1    &kp F2    &kp F3   &kp F4    &kp F5                         &kp F6     &kp F7        &kp F8           &kp F9  &kp F10
-        &trans   &kp LBKT  &kp N7    &kp N8   &kp N9    &kp STAR                   &caps_word    &kp INS     &kp PSCRN  &kp PAUSE_BREAK  &trans  &trans
-&trans  &trans   &kp DOT   &kp N1    &kp N2   &kp N3    &kp EQUAL                    &kp LEFT   &kp DOWN        &kp UP        &kp RIGHT  &trans  &trans  &trans
-        &trans   &ud_tilde &kp N4    &kp N5   &kp N6    &kp PLUS &trans    &trans   &kp HOME  &kp PG_DN     &kp PG_UP          &kp END  &trans  &trans
-                                    &trans   &kp MINUS &kp N0    &trans    &trans     &trans     &trans        &trans
+                         &kp N1  &kp N2    &kp N3   &kp N4  &kp N5                               &kp N6    &kp N7    &kp N8   &kp N9    &kp N0
+                &kp ESC   &kp Q   &kp W     &kp E    &kp R   &kp T                                &kp Y     &kp U     &kp I    &kp O     &kp P   &kp BSLH
+&kp DEL         &kp TAB   &kp A   &kp S     &kp D    &kp F   &kp G                                &kp H     &kp J     &kp K    &kp L  &kp SEMI    &kp SQT  &kp ENTER
+              &kp LSHFT   &kp Z   &kp X     &kp C    &kp V   &kp B     &kp C_PP           &kp C_MUTE   &kp N      &kp M &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                                         &kp LGUI  &mo 3 &kp SPACE     &kp LCTRL       &kp BSPC &kp SPACE   &mo 3  &kp LALT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
